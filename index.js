@@ -1,5 +1,5 @@
 const express = require("express");
-const { connectDatabase } = require("./connection/file");
+const { connectDatabase } = require("./Connection/file");
 const app = express();
 const MESSAGE_MODAL = require("./models/Message");
 app.use(express.json());
